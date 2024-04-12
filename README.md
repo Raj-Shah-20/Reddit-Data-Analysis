@@ -10,21 +10,12 @@ necessary data
 </p>
 
 <h2>Insights from Results</h2>
-<p>The analysis of the Reddit social network graph has provided several insights into user interactions
+<p align = "justify">The analysis of the Reddit social network graph has provided several insights into user interactions
 and network dynamics within the platform. By leveraging NetworkX for graph construction and measurement, we were able to explore key metrics such as Degree Distribution, Closeness Centrality, and PageRank.</p><br>
-<p>Degree Distribution: The presence of a large number of zero or nearly zero weights, indicating
-minimal or no shared subreddits between certain users, contributed to the complexity of the network by
-increasing the number of edges. The weights ranged from 2 to 170, requiring eventual scaling down and
-normalization.</p>
-<p>The right-skewed distribution suggests that while there are a few highly connected users (nodes) with a
-high number of subreddits (edges), the majority of users have lower degrees. This indicates a hierarchical
-structure within the network where a small number of users potentially hold significant influence or act
-as connectors.</p><br>
-<p>Closeness Centrality: Nodes with higher closeness centrality scores are more central within the network, indicating their proximity to other nodes. This suggests that certain users may have a higher potential to disseminate information or influence others due to their central position in the network.</p><br>
-<p>PageRank: Users with higher PageRank scores are likely to have a wider reach and influence within the
-network. These users may serve as important starting points for information diffusion and are crucial in
-predicting how trends or information spread throughout the community.</p>
-
+<p>Degree Distribution: The presence of a large number of zero or nearly zero weights, indicating minimal or no shared subreddits between certain users, contributed to the complexity of the network by increasing the number of edges. The weights ranged from 2 to 170, requiring eventual scaling down and normalization.</p>
+<p align = "justify">The right-skewed distribution suggests that while there are a few highly connected users (nodes) with a high number of subreddits (edges), the majority of users have lower degrees. This indicates a hierarchical structure within the network where a small number of users potentially hold significant influence or act as connectors.</p><br>
+<p align = "justify">Closeness Centrality: Nodes with higher closeness centrality scores are more central within the network, indicating their proximity to other nodes. This suggests that certain users may have a higher potential to disseminate information or influence others due to their central position in the network.</p><br>
+<p align = "justify">PageRank: Users with higher PageRank scores are likely to have a wider reach and influence within the network. These users may serve as important starting points for information diffusion and are crucial in predicting how trends or information spread throughout the community.</p>
 
 <h3>Code Details</h3>
 <p>The src/ folder contains files as follows :
